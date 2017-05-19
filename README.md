@@ -11,7 +11,7 @@ SSRouter.map("/home/goods", GoodsViewController.self)
 SSRouter.execute("ssrouter://\(SSRouter.pagePush):0/home/goods", nil)
 
 
-### 描述
+### 说明
 --构建该路由借鉴了JLRouter、Routable等其他未开源的路由思路
  --没有将JLRouter通过url.path传参的思路融合进来，感觉用处不是太大，借鉴了Routable一步控制页面跳转的思路
  
